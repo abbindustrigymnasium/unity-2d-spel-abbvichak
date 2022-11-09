@@ -5,7 +5,7 @@ using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int melons = 0;
+    public int melons = 0;
 
     [SerializeField] private TextMeshProUGUI melonsText;
     [SerializeField] private AudioSource collectSoundEffect;
@@ -17,7 +17,7 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             collectSoundEffect.Play();
             melons++;
-            melonsText.text = "Melons: " + melons;
+            melonsText.text = melons.ToString();
         }
     }
 }

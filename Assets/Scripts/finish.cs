@@ -1,45 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class finish : MonoBehaviour
 {
+    public Rigidbody2D rb;
     private AudioSource finishSound;
     private Animator anim;
-    public bool lastLevel;
-    
 
     private void Start()
     {
         finishSound = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
-        lastLevel = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            rb.bodyType = RigidbodyType2D.Static;
             anim.SetTrigger("finish");
             finishSound.Play();
-            CompleteLevel();
         }
     }
 
-    private void CompleteLevel()
+    private void nextLevel()
     {
-        
-    }
-    private void EndLevel()
-    {
-        if (lastLevel)
-        {
-            SceneManager.LoadScene("Menu");
-        }
-        else
-        {
-            SceneManager.GetActiveScene().buildIndex + 1;
-        }
+        FindObjectOfType<GameManager>().LevelComplete();
     }
 }

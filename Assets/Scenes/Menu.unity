@@ -2010,7 +2010,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 896326414}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: playGame
+        m_MethodName: newGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2327,7 +2327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 441670c6444832d42a8dbfd95909c1b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 39b730124a6f32e478a6a0b71ec4592d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
