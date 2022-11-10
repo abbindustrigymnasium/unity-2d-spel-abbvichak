@@ -8,6 +8,7 @@ public class finish : MonoBehaviour
     private AudioSource finishSound;
     private Animator anim;
 
+
     private void Start()
     {
         finishSound = GetComponent<AudioSource>();
@@ -18,6 +19,7 @@ public class finish : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            FindObjectOfType<StopWatch>().StopTimer();
             rb.bodyType = RigidbodyType2D.Static;
             anim.SetTrigger("finish");
             finishSound.Play();

@@ -5,10 +5,11 @@ using TMPro;
 
 public class StopWatch : MonoBehaviour
 {
-    public float timeStart;
+    public float timeStart { get; private set; }
     [SerializeField] private TextMeshProUGUI textBox;
 
-    bool timerActive = false;
+    public bool timerActive { get;  set; } 
+    public float timeScore { get; }
 
     void Start()
     {
@@ -23,10 +24,16 @@ public class StopWatch : MonoBehaviour
             timeStart += Time.deltaTime;
             textBox.text = timeStart.ToString("F2");
         }
+        else
+        {
+            Debug.Log("Noel");
+            Debug.Log(timeStart);
+        }
     }
-    public void timerButton()
+    public void StopTimer() 
     {
-        timerActive = !timerActive;
+        timerActive = false;
     }
+
 }
 

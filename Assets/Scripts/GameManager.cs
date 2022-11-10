@@ -1,13 +1,15 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private int level;
-    
+
+    public int currentLevel;
+    public float timeScore;
     public int lives;
     public int totalMelons;
+    public string playerName;
 
     private void Start()
     {
@@ -27,8 +29,15 @@ public class GameManager : MonoBehaviour
         LoadLevel(2);
     }
 
+    public void LoadGame() 
+    {
+        LoadLevel(currentLevel);
+    }
+
     private void LoadLevel(int index)
     {
+        currentLevel = level -1;
+
         level = index;
 
         Camera camera = Camera.main;
@@ -48,6 +57,8 @@ public class GameManager : MonoBehaviour
 
     public void LevelComplete()
     {
+        timeScore = FindObjectOfType<StopWatch>().timeStart;
+
         totalMelons += FindObjectOfType<ItemCollector>().melons;
 
         int nextLevel = level + 1;
