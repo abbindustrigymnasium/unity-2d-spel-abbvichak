@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 879f42eb54eb4f8489bc40c802959898
+guid: 9cfc0116f92113a459a7e02f469b0abf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1517127373124647554
-    second: Hit (84x38)_0
+      213: -7821056435626696026
+    second: Ceiling In (46x30)_0
   - first:
-      213: 7606828424425268948
-    second: Hit (84x38)_1
+      213: 4818463522585055590
+    second: Ceiling In (46x30)_1
   - first:
-      213: -7336032172952701361
-    second: Hit (84x38)_2
+      213: 6785575027083018927
+    second: Ceiling In (46x30)_2
   - first:
-      213: 2040186456984773144
-    second: Hit (84x38)_3
+      213: 1368094846580432026
+    second: Ceiling In (46x30)_3
   - first:
-      213: 8416034946683413540
-    second: Hit (84x38)_4
+      213: -7599803963057422796
+    second: Ceiling In (46x30)_4
+  - first:
+      213: -8505963418153364838
+    second: Ceiling In (46x30)_5
+  - first:
+      213: 8408381084322247736
+    second: Ceiling In (46x30)_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -62,7 +68,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -156,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hit (84x38)_0
+      name: Ceiling In (46x30)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 84
-        height: 38
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a10d8fc556769145aaa11e1e4d0f802
-      internalID: -1517127373124647554
+      spriteID: 3d6ee3307482f1a4a9f5694892b0f286
+      internalID: -7821056435626696026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (84x38)_1
+      name: Ceiling In (46x30)_1
       rect:
         serializedVersion: 2
-        x: 84
+        x: 46
         y: 0
-        width: 84
-        height: 38
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b78a23931aff57f4e8a28ed81ccc14ee
-      internalID: 7606828424425268948
+      spriteID: 83c99f90dccb9ea4ba3ec489676f5342
+      internalID: 4818463522585055590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (84x38)_2
+      name: Ceiling In (46x30)_2
       rect:
         serializedVersion: 2
-        x: 168
+        x: 92
         y: 0
-        width: 84
-        height: 38
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26383f9ab72d0c46ac26dea3a51f46d
-      internalID: -7336032172952701361
+      spriteID: d0aac765fd9337849943e1e71d143747
+      internalID: 6785575027083018927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (84x38)_3
+      name: Ceiling In (46x30)_3
       rect:
         serializedVersion: 2
-        x: 252
+        x: 138
         y: 0
-        width: 84
-        height: 38
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bc116ed76ac6b46a4265c8745f193d
-      internalID: 2040186456984773144
+      spriteID: cf850503251e46f41923ddfe3b3315ff
+      internalID: 1368094846580432026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (84x38)_4
+      name: Ceiling In (46x30)_4
       rect:
         serializedVersion: 2
-        x: 336
+        x: 184
         y: 0
-        width: 84
-        height: 38
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,8 +260,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3cae97d94220744f8bba33743268248
-      internalID: 8416034946683413540
+      spriteID: f1806347c2abe164093a362d97a8667d
+      internalID: -7599803963057422796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling In (46x30)_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287a45be96f0ac6438b0d6bed6d44f78
+      internalID: -8505963418153364838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling In (46x30)_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e60f98fc473d498f0727eb6d13a14
+      internalID: 8408381084322247736
       vertices: []
       indices: 
       edges: []
@@ -271,11 +319,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hit (84x38)_4: 8416034946683413540
-      Hit (84x38)_0: -1517127373124647554
-      Hit (84x38)_3: 2040186456984773144
-      Hit (84x38)_1: 7606828424425268948
-      Hit (84x38)_2: -7336032172952701361
+      Ceiling In (46x30)_3: 1368094846580432026
+      Ceiling In (46x30)_4: -7599803963057422796
+      Ceiling In (46x30)_5: -8505963418153364838
+      Ceiling In (46x30)_6: 8408381084322247736
+      Ceiling In (46x30)_1: 4818463522585055590
+      Ceiling In (46x30)_0: -7821056435626696026
+      Ceiling In (46x30)_2: 6785575027083018927
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
