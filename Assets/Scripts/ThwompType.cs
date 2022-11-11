@@ -6,6 +6,7 @@ public class ThwompType : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
+    private BoxCollider2D coll;
     [SerializeField] private float jumpPush = 14f;
     [SerializeField] private LayerMask layerGround;
     private enum movementState { idle, jumping, falling }
@@ -14,6 +15,7 @@ public class ThwompType : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        coll = GetComponent<BoxCollider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -32,14 +34,17 @@ public class ThwompType : MonoBehaviour
 
     private void animationUpdate()
     {
+        movementState state;
         if (rb.velocity.y > .1f)
         {
             state = movementState.jumping;
         }
+
         else if (rb.velocity.y < -.1f)
         {
             state = movementState.falling;
         }
+
         else
         {
             state = movementState.idle;
