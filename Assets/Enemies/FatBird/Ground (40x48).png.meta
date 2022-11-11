@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 0b35535918bf72f4a9f6d0311709b8a2
+guid: 1b30865eb3e4c8e4c98659ab87085cf7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6346164034597705212
-    second: Fall (40x48)_0
+      213: 7113223671400180699
+    second: Ground (40x48)_0
   - first:
-      213: -4408830808477238317
-    second: Fall (40x48)_1
+      213: -1002462845672824615
+    second: Ground (40x48)_1
   - first:
-      213: -8273823610724942171
-    second: Fall (40x48)_2
+      213: 4489984281543791755
+    second: Ground (40x48)_2
   - first:
-      213: -2302652882638960745
-    second: Fall (40x48)_3
+      213: 3284658186516867127
+    second: Ground (40x48)_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -59,7 +59,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,7 +153,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fall (40x48)_0
+      name: Ground (40x48)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -167,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a570066ccbb2447b1a08832b8a9c8a
-      internalID: -6346164034597705212
+      spriteID: 8e90fd1e23eeec94190516218df34ddd
+      internalID: 7113223671400180699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall (40x48)_1
+      name: Ground (40x48)_1
       rect:
         serializedVersion: 2
         x: 40
@@ -188,14 +188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a42a34d2b32764ba04ee4b66f9fa5d
-      internalID: -4408830808477238317
+      spriteID: 1ad8bde92be5b5d4793b510cecd4fd80
+      internalID: -1002462845672824615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall (40x48)_2
+      name: Ground (40x48)_2
       rect:
         serializedVersion: 2
         x: 80
@@ -209,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93ca2c25decfb247942ebb216339ef9
-      internalID: -8273823610724942171
+      spriteID: 10942e33ba0d9d8428f23448d6a77d54
+      internalID: 4489984281543791755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall (40x48)_3
+      name: Ground (40x48)_3
       rect:
         serializedVersion: 2
         x: 120
@@ -230,8 +230,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a1108d52919684dad7d387a5c8ff67
-      internalID: -2302652882638960745
+      spriteID: e79a8418f5921a549aaf556942d6820f
+      internalID: 3284658186516867127
       vertices: []
       indices: 
       edges: []
@@ -247,10 +247,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fall (40x48)_2: -8273823610724942171
-      Fall (40x48)_0: -6346164034597705212
-      Fall (40x48)_1: -4408830808477238317
-      Fall (40x48)_3: -2302652882638960745
+      Ground (40x48)_1: -1002462845672824615
+      Ground (40x48)_2: 4489984281543791755
+      Ground (40x48)_3: 3284658186516867127
+      Ground (40x48)_0: 7113223671400180699
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
