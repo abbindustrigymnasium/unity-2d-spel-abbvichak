@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         LoadLevel(2);
     }
 
-    private void LoadLevel(int index)
+    public void LoadLevel(int index)
     {
         currentLevel = level -1;
 
@@ -75,8 +75,6 @@ public class GameManager : MonoBehaviour
     public void LevelFailed()
     {
         lives--;
-
-        Debug.Log(lives);
         
         if (lives == 0)
         {

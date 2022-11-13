@@ -27,7 +27,7 @@ public class BossAI : MonoBehaviour
 
     void Update()
     {
-        if (totalHits == 3)
+        if (totalHits >= 3)
         {
             FindObjectOfType<GameManager>().EndGame();
         }
