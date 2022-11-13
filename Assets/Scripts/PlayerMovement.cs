@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private enum movementState { idle, running, jumping, falling }
     
     [SerializeField] private float moveSpeed = 350f;
-    [SerializeField] private float jumpForce = 14f;
+    [SerializeField] public float jumpForce = 14f;
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private AudioSource jumpSoundEffect;
 
@@ -75,5 +75,10 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+
+    public void jumpBoost()
+    {
+        jumpForce = 21f;
     }
 }

@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
     public static bool gameIsPaused = false;
 
     public GameObject pauseMenuUI;
-    void resume()
+    public void resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1;
@@ -30,11 +30,18 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("QUIT");
         Application.Quit();
     }
+
+    public void restartGame()
+    {
+        FindObjectOfType<GameManager>().LevelFailed();
+    }
+    
     void Start()
     {
         Time.timeScale = 1;
         gameIsPaused = false; 
     }
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

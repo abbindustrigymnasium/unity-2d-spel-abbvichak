@@ -26,12 +26,12 @@ public class GameManager : MonoBehaviour
         lives = 5;
         totalMelons = 0;
 
-        LoadLevel(2);
+        LoadLevel(3);
     }
 
     public void LoadGame() 
     {
-        LoadLevel(currentLevel);
+        LoadLevel(2);
     }
 
     private void LoadLevel(int index)
@@ -86,5 +86,9 @@ public class GameManager : MonoBehaviour
         {
             LoadLevel(level);
         }
+    }
+    public void EndGame()
+    {
+        Application.Quit();
     }
 }

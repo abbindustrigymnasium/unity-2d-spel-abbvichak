@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 045eb5e1f0cbc424e9a8eed9eaf27bf8
+guid: 54aabc49583d77e4587c8ce5ed94edab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9070499791870808695
-    second: Idle 1 (52x54)_0
+      213: 8469967320015633513
+    second: Hit Wall 1 (52x54)_0
   - first:
-      213: -2888923241174616378
-    second: Idle 1 (52x54)_1
+      213: 789990734823635674
+    second: Hit Wall 1 (52x54)_1
   - first:
-      213: -8062225408986317818
-    second: Idle 1 (52x54)_2
+      213: -6329676049017846068
+    second: Hit Wall 1 (52x54)_2
   - first:
-      213: -7153243832339893008
-    second: Idle 1 (52x54)_3
+      213: -2131096160782434848
+    second: Hit Wall 1 (52x54)_3
   - first:
-      213: -2470280352926481607
-    second: Idle 1 (52x54)_4
+      213: -5115758099669746976
+    second: Hit Wall 1 (52x54)_4
   - first:
-      213: 1869093196601225284
-    second: Idle 1 (52x54)_5
+      213: 8631773879474628898
+    second: Hit Wall 1 (52x54)_5
   - first:
-      213: 3066263985290150655
-    second: Idle 1 (52x54)_6
-  - first:
-      213: 8586927414077334131
-    second: Idle 1 (52x54)_7
+      213: 5998954015408890803
+    second: Hit Wall 1 (52x54)_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -71,7 +68,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,11 +158,35 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle 1 (52x54)_0
+      name: Hit Wall 1 (52x54)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -179,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953e3a5b90299094e98f8e3ad129ce39
-      internalID: -9070499791870808695
+      spriteID: 69f8c0643ec75914396ba7861ba3ce66
+      internalID: 8469967320015633513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1 (52x54)_1
+      name: Hit Wall 1 (52x54)_1
       rect:
         serializedVersion: 2
         x: 52
@@ -200,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1984b9624da4754c88c3b5098c41632
-      internalID: -2888923241174616378
+      spriteID: 556bb5f0c5772b340832ce08b54c6156
+      internalID: 789990734823635674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1 (52x54)_2
+      name: Hit Wall 1 (52x54)_2
       rect:
         serializedVersion: 2
         x: 104
@@ -221,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4384f02f31d53b478926dc00b8bf7b8
-      internalID: -8062225408986317818
+      spriteID: d24b7dfbd49188d4c88c2e5208f9706b
+      internalID: -6329676049017846068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1 (52x54)_3
+      name: Hit Wall 1 (52x54)_3
       rect:
         serializedVersion: 2
         x: 156
@@ -242,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02424b2a47d4ed2448ec48bf149f4ed2
-      internalID: -7153243832339893008
+      spriteID: 3a495ff59b1bd6c40a53067d0c92c1dc
+      internalID: -2131096160782434848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1 (52x54)_4
+      name: Hit Wall 1 (52x54)_4
       rect:
         serializedVersion: 2
         x: 208
@@ -263,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6723de5c6b8a5db428f3f3e8c73a8d78
-      internalID: -2470280352926481607
+      spriteID: 62846a1e64e46454ead988d5a92d04a9
+      internalID: -5115758099669746976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1 (52x54)_5
+      name: Hit Wall 1 (52x54)_5
       rect:
         serializedVersion: 2
         x: 260
@@ -284,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be1226be115aa34c88edcd35d19c725
-      internalID: 1869093196601225284
+      spriteID: fc115a5808dd2d848b51beec605ab7d0
+      internalID: 8631773879474628898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle 1 (52x54)_6
+      name: Hit Wall 1 (52x54)_6
       rect:
         serializedVersion: 2
         x: 312
@@ -305,29 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b74977173d4d649a3d9762ade62b9f
-      internalID: 3066263985290150655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle 1 (52x54)_7
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 0
-        width: 52
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4be01818a03d6e646870e99fd27ed419
-      internalID: 8586927414077334131
+      spriteID: 28d3d12e0c2e67c438dfb25235842e95
+      internalID: 5998954015408890803
       vertices: []
       indices: 
       edges: []
@@ -343,14 +343,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle 1 (52x54)_0: -9070499791870808695
-      Idle 1 (52x54)_3: -7153243832339893008
-      Idle 1 (52x54)_7: 8586927414077334131
-      Idle 1 (52x54)_4: -2470280352926481607
-      Idle 1 (52x54)_2: -8062225408986317818
-      Idle 1 (52x54)_1: -2888923241174616378
-      Idle 1 (52x54)_5: 1869093196601225284
-      Idle 1 (52x54)_6: 3066263985290150655
+      Hit Wall 1 (52x54)_1: 789990734823635674
+      Hit Wall 1 (52x54)_4: -5115758099669746976
+      Hit Wall 1 (52x54)_0: 8469967320015633513
+      Hit Wall 1 (52x54)_5: 8631773879474628898
+      Hit Wall 1 (52x54)_6: 5998954015408890803
+      Hit Wall 1 (52x54)_2: -6329676049017846068
+      Hit Wall 1 (52x54)_3: -2131096160782434848
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
