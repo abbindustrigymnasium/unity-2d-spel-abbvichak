@@ -13,6 +13,6 @@ I have however programmed almost all scripts myself.
 6. Level Selection World
 7. Saving Progress
 8. More Levels
-  1. Vertical Levels
-  2. Bosses
+    1. Vertical Levels
+    2. Bosses
 9. More PowerUps
