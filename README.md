@@ -15,3 +15,4 @@ I have however programmed almost all scripts myself.
     1. Vertical Levels
     2. Bosses
 8. More PowerUps
+9. My own Sprites and Music
