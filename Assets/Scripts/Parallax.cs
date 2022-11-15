@@ -8,14 +8,16 @@ public class Parallax : MonoBehaviour
 
 {
 
-    private float lenght, starpos;
+    private float lenght, starposx, startposy;
     public GameObject cam;
     public float parallaxEffect;
 
     void Start()
     {
 
-        starpos = transform.position.x;
+        starposx = transform.position.x;
+
+        startposy= transform.position.y;
 
         lenght = GetComponent<SpriteRenderer>().bounds.size.x;
 
@@ -27,11 +29,11 @@ public class Parallax : MonoBehaviour
         float temp = (cam.transform.position.x * (1 - parallaxEffect));
         float dist = (cam.transform.position.x * parallaxEffect);
         
-        transform.position = new Vector3(starpos + dist, transform.position.y, transform.position.z);
+        transform.position = new Vector3(starposx + dist, startposy, transform.position.z);
 
-        if (temp > starpos + lenght) starpos += lenght;
+        if (temp > starposx + lenght) starposx += lenght;
 
-        else if (temp < starpos - lenght) starpos -= lenght;
+        else if (temp < starposx - lenght) starposx -= lenght;
 
     }
 

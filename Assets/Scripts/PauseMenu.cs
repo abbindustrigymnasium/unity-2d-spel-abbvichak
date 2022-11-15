@@ -54,5 +54,9 @@ public class PauseMenu : MonoBehaviour
                 pause();
             }
         }
+        if (Input.GetKeyUp(KeyCode.Backspace))
+        {
+            restartGame();
+        }
     }
 }

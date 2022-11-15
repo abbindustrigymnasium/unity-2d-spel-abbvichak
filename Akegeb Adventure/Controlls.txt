@@ -1,0 +1,7 @@
+Movement:
+-A/D or arrowkeys for moving horizontally
+-Spacebar for Jumping
+
+Other:
+-Escape for Pausing
+-Backspace to restart level (Obs: Will lose a life)

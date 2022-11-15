@@ -6,7 +6,9 @@ public class ThwompType : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
-    private BoxCollider2D coll;
+    private BoxCollider2D collb;
+    private CircleCollider2D collc;
+
     [SerializeField] private float jumpPush = 14f;
     [SerializeField] private LayerMask layerGround;
     private enum movementState { idle, jumping, falling }
@@ -15,21 +17,22 @@ public class ThwompType : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        coll = GetComponent<BoxCollider2D>();
+        collb = GetComponent<BoxCollider2D>();
+        collc = GetComponent<CircleCollider2D>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collc)
     {
-        if (collision.gameObject.CompareTag("Player") && isGrounded())
+        if (collc.gameObject.CompareTag("Player") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPush);
             animationUpdate();
         }
     }
 
-    private bool isGrounded()
+    private bool IsGrounded()
     {
-        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, layerGround);
+        return Physics2D.BoxCast(collb.bounds.center, collb.bounds.size, 0f, Vector2.down, .1f, layerGround);
     }
 
     private void animationUpdate()

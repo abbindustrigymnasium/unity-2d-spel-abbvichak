@@ -9,7 +9,7 @@ public class StopWatch : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textBox;
 
     public bool timerActive { get;  set; } 
-    public float timeScore { get; }
+    public float timeScore { get; set; }
 
     void Start()
     {
@@ -26,13 +26,13 @@ public class StopWatch : MonoBehaviour
         }
         else
         {
-            Debug.Log("Noel");
             Debug.Log(timeStart);
         }
     }
     public void StopTimer() 
     {
         timerActive = false;
+        timeScore = timeStart;
     }
 
 }
