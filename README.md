@@ -5,14 +5,12 @@ I use assets and sprites mainly from unity asset store because I don't know how 
 I have however programmed almost all scripts myself.
 
 ### Future Plans
-1. Saving TimeScores
-2. Scene Transitions
-3. Better Camera
-4. Story
-5. Level Selection World
-6. Saving Progress
-7. More Levels
+1. Scene Transitions
+2. Story
+3. Level Selection World
+4. More Levels
     1. Vertical Levels
     2. Bosses
-8. More PowerUps
-9. My own Sprites and Music
+5. More PowerUps
+6. Multiplayer
+7. Saving progress
